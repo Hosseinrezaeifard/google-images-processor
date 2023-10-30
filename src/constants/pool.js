@@ -1,12 +1,12 @@
 const { Pool } = require("pg");
 
-// Provide your own pool's information here
+// To run locally, change this information to your own machine's postgres credentials
 const pool = new Pool({
-  user: "",
-  password: "",
-  host: "",
+  user: "user",
+  password: "pass",
+  host: "postgres",
   port: 5432,
-  database: "",
+  database: "db",
 });
 
 module.exports = pool;
