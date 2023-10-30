@@ -1,5 +1,5 @@
 const express = require("express");
-const pool = require("../contants/pool");
+const pool = require("../constants/pool");
 const router = express.Router();
 
 // Define your image processing logic here

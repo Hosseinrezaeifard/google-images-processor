@@ -1,4 +1,4 @@
-const pool = require("../contants/pool");
+const pool = require("../constants/pool");
 
 const initializeDatabaseConnection = async () => {
   const client = await pool.connect();
